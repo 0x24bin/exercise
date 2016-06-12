@@ -18,7 +18,10 @@ def moni(a,b):
 		b=c
 		#判断
 		if c==1:
-			return f+z
+			if f<0:
+				return f+z
+			else:
+				return f
 			break
 #字典
 dic=('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')
